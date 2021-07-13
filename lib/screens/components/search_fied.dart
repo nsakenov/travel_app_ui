@@ -18,7 +18,13 @@ class SearchField extends StatelessWidget {
         border: Border.all(
           color: Color(0xFF3E4067),
         ),
-        boxShadow: [kDefualtShadow],
+        boxShadow: [
+          BoxShadow(
+              offset: Offset(3, 3),
+              blurRadius: 10,
+              color: Colors.black.withOpacity(0.16),
+              spreadRadius: -2)
+        ],
       ),
       child: TextField(
         onChanged: (value) {
