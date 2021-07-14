@@ -23,6 +23,7 @@ class Body extends StatelessWidget {
           ),
           VerticalSpacing(of: 20),
           TopTravelers(),
+          VerticalSpacing(),
         ],
       ),
     );
